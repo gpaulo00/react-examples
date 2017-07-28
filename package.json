@@ -1,5 +1,5 @@
 {
-  "name": "rollup-react-example",
+  "name": "react-rollup-example",
   "version": "0.0.0",
   "description": "Example of bundling React with Rollup",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/gpaulo00/react-examples.git"
+    "url": "https://github.com/gpaulo00/react-rollup-example.git"
   },
   "dependencies": {
     "babel-preset-es2015-rollup": "^3.0.0",
