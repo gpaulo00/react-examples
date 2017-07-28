@@ -1,0 +1,36 @@
+{
+  "name": "react-rollup-example",
+  "version": "0.0.0",
+  "description": "Example of bundling React with Rollup",
+  "main": "index.js",
+  "author": "Gustavo Paulo <gustavo.paulo.segura@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "server": "browser-sync start --no-open --server build",
+    "start": "concurrently \"yarn run watch\" \"yarn run server\""
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpaulo00/react-rollup-example.git"
+  },
+  "dependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "concurrently": "^3.5.0",
+    "rollup-watch": "^4.3.1"
+  }
+}
