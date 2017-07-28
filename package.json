@@ -11,6 +11,11 @@
     "server": "browser-sync start --no-open --server build",
     "start": "concurrently \"yarn run watch\" \"yarn run server\""
   },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpaulo00/react-examples.git"
+  },
   "dependencies": {
     "babel-preset-es2015-rollup": "^3.0.0",
     "babel-preset-react": "^6.24.1",
