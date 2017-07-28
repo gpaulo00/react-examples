@@ -8,7 +8,9 @@ export default {
   format : "iife",
   dest : "build/bundle.js",
   plugins : [
-    resolve(),
+    resolve({
+      jsnext: true, main: true
+    }),
     commonjs({
       include: 'node_modules/**'
     }),

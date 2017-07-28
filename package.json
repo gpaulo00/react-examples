@@ -6,6 +6,7 @@
   "author": "Gustavo Paulo <gustavo.paulo.segura@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015-rollup": "^3.0.0",
     "babel-preset-react": "^6.24.1",
     "react": "^15.6.1",
