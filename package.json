@@ -1,0 +1,12 @@
+{
+  "name": "rollup-example",
+  "version": "0.0.0",
+  "description": "A attempt to use rollup with React",
+  "main": "index.js",
+  "author": "Gustavo Paulo <gustavo.paulo.segura@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
